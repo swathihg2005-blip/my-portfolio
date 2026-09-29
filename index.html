@@ -14,21 +14,16 @@
     <!-- Navigation -->
     <header>
         <nav class="navbar">
+            <h2 class="logo">Swathi H G</h2>
 
-            <h2 class="logo">Swathi</h2>
-
-            <button class="menu-btn" onclick="toggleMenu()">☰</button>
-
-            <ul class="nav-links" id="navLinks">
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
-            <button class="theme-btn" onclick="toggleTheme()">🌙</button>
-
         </nav>
     </header>
 
@@ -37,60 +32,95 @@
     <section id="home" class="hero">
 
         <div class="hero-content">
-            <h1>Hello, I'm <span>Swathi H G</span></h1>
+            <p class="small-title">Hello, I'm</p>
+
+            <h1>Swathi H G</h1>
 
             <h2>Web Development Student</h2>
 
             <p>
-                I am a Computer Science Engineering student
-                interested in web development and technology.
+                I am a Computer Science Engineering student who is
+                interested in web development and learning new technologies.
             </p>
 
-            <a href="#about" class="btn">Explore More</a>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+
+                <a href="resume.pdf" download class="btn secondary-btn">
+                    Download Resume
+                </a>
+            </div>
         </div>
 
     </section>
 
 
     <!-- About Section -->
-    <section id="about" class="section reveal">
+    <section id="about" class="section">
 
-        <h2>About Me</h2>
+        <h2 class="section-title">About Me</h2>
 
-        <p>
-            I am a 2nd year Computer Science Engineering student.
-            I enjoy learning new technologies and creating simple
-            and useful websites. My goal is to become a web developer.
-        </p>
+        <div class="about-content">
+
+            <div class="about-text">
+                <p>
+                    I am a second-year B.E. Computer Science and Engineering
+                    student at PES Institute of Technology and Management.
+                </p>
+
+                <p>
+                    I am interested in web development and enjoy creating
+                    simple and user-friendly websites. I am continuously
+                    improving my programming and technical skills through
+                    projects and internships.
+                </p>
+
+                <p>
+                    My goal is to become a skilled web developer and build
+                    useful and creative web applications.
+                </p>
+            </div>
+
+        </div>
 
     </section>
 
 
     <!-- Skills Section -->
-    <section id="skills" class="section reveal">
+    <section id="skills" class="section skills-section">
 
-        <h2>My Skills</h2>
+        <h2 class="section-title">My Skills</h2>
 
         <div class="skills-container">
 
             <div class="skill-card">
                 <h3>HTML</h3>
-                <p>Creating website structure.</p>
+                <p>Creating structured and semantic web pages.</p>
             </div>
 
             <div class="skill-card">
                 <h3>CSS</h3>
-                <p>Designing responsive websites.</p>
+                <p>Designing responsive and attractive websites.</p>
             </div>
 
             <div class="skill-card">
                 <h3>JavaScript</h3>
-                <p>Adding interactive features.</p>
+                <p>Adding interactive features to websites.</p>
             </div>
 
             <div class="skill-card">
                 <h3>Python</h3>
-                <p>Basic programming knowledge.</p>
+                <p>Learning basic programming and problem solving.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Bootstrap</h3>
+                <p>Building responsive layouts using Bootstrap.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>GitHub</h3>
+                <p>Managing and sharing projects using GitHub.</p>
             </div>
 
         </div>
@@ -99,34 +129,130 @@
 
 
     <!-- Projects Section -->
-    <section id="projects" class="section reveal">
+    <section id="projects" class="section">
 
-        <h2>My Projects</h2>
+        <h2 class="section-title">My Projects</h2>
+
+        <p class="section-description">
+            Here are some of the projects I have created while learning
+            web development and programming.
+        </p>
 
         <div class="projects-container">
 
+            <!-- Project 1 -->
             <div class="project-card">
-                <h3>Personal Portfolio</h3>
-                <p>
-                    A responsive portfolio website created using
-                    HTML, CSS and JavaScript.
-                </p>
+
+                <div class="project-content">
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        A responsive personal portfolio website created using
+                        HTML and CSS to showcase my profile, skills, education,
+                        and projects.
+                    </p>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/" target="_blank"
+                           class="project-btn">
+                            GitHub
+                        </a>
+
+                        <a href="#" class="project-btn demo-btn">
+                            Live Demo
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
 
+
+            <!-- Project 2 -->
             <div class="project-card">
-                <h3>HealthMate</h3>
-                <p>
-                    A simple personal health assistant webpage
-                    created using HTML, CSS and Bootstrap.
-                </p>
+
+                <div class="project-content">
+
+                    <h3>HealthMate</h3>
+
+                    <p>
+                        A personal health assistant webpage designed using
+                        HTML, CSS and Bootstrap. It includes health tips,
+                        appointments and a simple chatbot interface.
+                    </p>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/" target="_blank"
+                           class="project-btn">
+                            GitHub
+                        </a>
+
+                        <a href="#" class="project-btn demo-btn">
+                            Live Demo
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
 
+
+            <!-- Project 3 -->
             <div class="project-card">
-                <h3>WattLog</h3>
-                <p>
-                    A web project idea for electricity bill
-                    management and bill scanning.
-                </p>
+
+                <div class="project-content">
+
+                    <h3>WattLog</h3>
+
+                    <p>
+                        An electricity bill management project concept that
+                        helps users manage electricity bills and includes
+                        a bill scanning feature.
+                    </p>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/" target="_blank"
+                           class="project-btn">
+                            GitHub
+                        </a>
+
+                        <a href="#" class="project-btn demo-btn">
+                            Live Demo
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 4 -->
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <h3>Online Shopping Cart</h3>
+
+                    <p>
+                        A simple online shopping cart project created to
+                        understand products, cart management and basic
+                        web application concepts.
+                    </p>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/" target="_blank"
+                           class="project-btn">
+                            GitHub
+                        </a>
+
+                        <a href="#" class="project-btn demo-btn">
+                            Live Demo
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -134,48 +260,91 @@
     </section>
 
 
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+
+            <div class="education-content">
+
+                <span class="education-year">2025 - Present</span>
+
+                <h3>B.E. Computer Science and Engineering</h3>
+
+                <h4>PES Institute of Technology and Management</h4>
+
+                <p>
+                    Currently pursuing my Bachelor of Engineering in
+                    Computer Science and Engineering.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Resume Section -->
+    <section class="resume-section">
+
+        <h2>My Resume</h2>
+
+        <p>
+            Interested in learning more about my education, skills
+            and projects?
+        </p>
+
+        <a href="resume.pdf" download class="btn resume-btn">
+            Download Resume
+        </a>
+
+    </section>
+
+
     <!-- Contact Section -->
-    <section id="contact" class="section reveal">
+    <section id="contact" class="section contact-section">
 
-        <h2>Contact Me</h2>
+        <h2 class="section-title">Contact Me</h2>
 
-        <form id="contactForm">
+        <p>
+            Feel free to connect with me for opportunities,
+            projects and collaborations.
+        </p>
 
-            <input
-                type="text"
-                id="name"
-                placeholder="Enter your name"
-            >
+        <div class="contact-links">
 
-            <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-            >
+            <a href="mailto:your-email@example.com">
+                Email
+            </a>
 
-            <textarea
-                id="message"
-                placeholder="Enter your message"
-            ></textarea>
+            <a href="https://www.linkedin.com/" target="_blank">
+                LinkedIn
+            </a>
 
-            <button type="submit" class="btn">
-                Send Message
-            </button>
+            <a href="https://github.com/" target="_blank">
+                GitHub
+            </a>
 
-            <p id="formMessage"></p>
-
-        </form>
+        </div>
 
     </section>
 
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 Swathi H G | My Portfolio</p>
+
+        <p>
+            © 2026 Swathi H G | Personal Portfolio
+        </p>
+
+        <p>
+            Built with HTML & CSS
+        </p>
+
     </footer>
-
-
-    <script src="script.js"></script>
 
 </body>
 </html>
