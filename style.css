@@ -1,0 +1,184 @@
+/* Basic page settings */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f7fa;
+color: #333;
+line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+background-color: #222;
+color: white;
+padding: 15px 8%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav h2 {
+color: #4da6ff;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 25px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+
+nav ul li a:hover {
+color: #4da6ff;
+}
+
+/* Home / Hero Section */
+.hero {
+min-height: 80vh;
+padding: 60px 8%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 40px;
+}
+
+.hero-text {
+max-width: 600px;
+}
+
+.hero-text h1 {
+font-size: 42px;
+margin-bottom: 10px;
+}
+
+.hero-text h1 span {
+color: #4da6ff;
+}
+
+.hero-text h2 {
+margin-bottom: 15px;
+color: #555;
+}
+
+.hero-text p {
+font-size: 18px;
+margin-bottom: 25px;
+}
+
+/* Contact Button */
+.button {
+display: inline-block;
+background-color: #4da6ff;
+color: white;
+padding: 12px 25px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.button:hover {
+background-color: #2878c7;
+}
+
+/* Profile Image */
+.hero-image img {
+width: 250px;
+height: 250px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid #4da6ff;
+}
+
+/* Common Section Styling */
+.section {
+padding: 70px 8%;
+text-align: center;
+}
+
+.section h2 {
+font-size: 32px;
+margin-bottom: 25px;
+color: #222;
+}
+
+.section p {
+max-width: 750px;
+margin: 10px auto;
+}
+
+/* Skills */
+.skills-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 30px;
+}
+
+.skill {
+background-color: white;
+width: 220px;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+color: #4da6ff;
+margin-bottom: 10px;
+}
+
+/* Contact */
+.contact {
+background-color: #eaf4ff;
+}
+
+.contact strong {
+color: #222;
+}
+
+/* Footer */
+footer {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 700px) {
+
+nav {
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav ul {
+    gap: 15px;
+}
+
+.hero {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+}
+
+.hero-image img {
+    width: 200px;
+    height: 200px;
+}
+
+}
