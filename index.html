@@ -1,129 +1,295 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swathi H G - Portfolio</title><!-- Link CSS file -->
-<link rel="stylesheet" href="style.css">
 
-</head><body><!-- Navigation Bar -->
-<nav>
-    <h2>Swathi H G</h2>
+    <title>Swathi H G | Portfolio</title>
 
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">Swathi.</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
 
 
-<!-- Home / Hero Section -->
-<section id="home" class="hero">
+    <!-- Home Section -->
+    <section id="home" class="home">
 
-    <div class="hero-text">
-        <h1>Hello, I'm <span>Swathi H G</span></h1>
+        <div class="home-content">
 
-        <h2>Computer Science Engineering Student</h2>
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
-        <p>
-            Welcome to my personal portfolio website.
-            I am learning web development and programming.
+            <h1>Hello, I'm <span>Swathi H G</span></h1>
+
+            <h2>Computer Science Student</h2>
+
+            <p>
+                I am a passionate Computer Science student interested in
+                web development and learning new technologies.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn outline-btn">Contact Me</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-image">
+                <div class="profile-circle">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <div class="about-text">
+
+                <h3>I'm a Computer Science Student</h3>
+
+                <p>
+                    I am a second-year B.E. Computer Science and Engineering
+                    student. I am interested in web development and enjoy
+                    creating simple and useful websites.
+                </p>
+
+                <p>
+                    I am currently improving my skills in HTML, CSS, Python,
+                    Java and other technologies. My goal is to become a
+                    successful web developer.
+                </p>
+
+                <a href="#contact" class="btn">Let's Connect</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <p class="section-description">
+            Here are some of the technologies and skills I am learning.
         </p>
 
-        <a href="#contact" class="button">Contact Me</a>
-    </div>
+        <div class="skills-grid">
 
-    <div class="hero-image">
-        <!-- Put your photo inside the images folder -->
-        <img src="images/profile.jpg" alt="Swathi H G Profile Photo">
-    </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Creating the structure of websites.</p>
+            </div>
 
-</section>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Designing and styling web pages.</p>
+            </div>
 
+            <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Learning programming and problem solving.</p>
+            </div>
 
-<!-- About Me Section -->
-<section id="about" class="section">
+            <div class="skill-card">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <p>Learning object-oriented programming.</p>
+            </div>
 
-    <h2>About Me</h2>
+            <div class="skill-card">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Managing and sharing my projects.</p>
+            </div>
 
-    <p>
-        I am a Computer Science and Engineering student.
-        I am interested in web development and technology.
-        I enjoy learning new skills and creating simple projects.
-    </p>
+            <div class="skill-card">
+                <i class="fa-solid fa-users"></i>
+                <h3>Teamwork</h3>
+                <p>Working and learning effectively with others.</p>
+            </div>
 
-    <p>
-        My goal is to become a skilled web developer and
-        build useful and creative websites.
-    </p>
-
-</section>
-
-
-<!-- Skills Section -->
-<section id="skills" class="section">
-
-    <h2>My Skills</h2>
-
-    <div class="skills-container">
-
-        <div class="skill">
-            <h3>HTML</h3>
-            <p>Basic knowledge of creating web pages.</p>
         </div>
 
-        <div class="skill">
-            <h3>CSS</h3>
-            <p>Basic knowledge of styling websites.</p>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <p class="section-description">
+            Some projects that I have worked on while learning.
+        </p>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+
+                <h3>HealthMate</h3>
+
+                <p>
+                    A personal health assistant website created using
+                    HTML, CSS and Bootstrap.
+                </p>
+
+                <a href="#" class="project-btn">View Project</a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <h3>Wattlog</h3>
+
+                <p>
+                    A concept for an electricity bill management application
+                    with bill scanning features.
+                </p>
+
+                <a href="#" class="project-btn">View Project</a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <h3>Online Shopping</h3>
+
+                <p>
+                    A simple online shopping project concept with products,
+                    cart and order management.
+                </p>
+
+                <a href="#" class="project-btn">View Project</a>
+
+            </div>
+
         </div>
 
-        <div class="skill">
-            <h3>Python</h3>
-            <p>Basic programming and problem solving.</p>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p class="section-description">
+            Feel free to connect with me.
+        </p>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <p>your-email@example.com</p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <h3>LinkedIn</h3>
+
+                <p>Connect with me on LinkedIn</p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <h3>GitHub</h3>
+
+                <p>View my projects on GitHub</p>
+
+            </div>
+
         </div>
 
-        <div class="skill">
-            <h3>Java</h3>
-            <p>Basic knowledge of Java programming.</p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Swathi H G. All Rights Reserved.
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
         </div>
 
-    </div>
-
-</section>
-
-
-<!-- Contact Section -->
-<section id="contact" class="section contact">
-
-    <h2>Contact Me</h2>
-
-    <p>
-        I would love to connect with you and learn new things.
-    </p>
-
-    <p>
-        <strong>Email:</strong>
-        your-email@example.com
-    </p>
-
-    <p>
-        <strong>LinkedIn:</strong>
-        linkedin.com/in/your-profile
-    </p>
-
-    <p>
-        <strong>GitHub:</strong>
-        github.com/your-username
-    </p>
-
-</section>
-
-
-<!-- Footer -->
-<footer>
-    <p>© 2026 Swathi H G | My Portfolio</p>
-</footer>
+    </footer>
 
 </body>
 </html>
